@@ -12,7 +12,7 @@ frame = ttk.Frame(root, padding = 10)
 frame.grid()
 
 #provide some text via a label
-ttk.Label(frame, text = "Hello World!").grid(column = 0, row = 0)
+ttk.Label(frame, text = "Please Enter the Desired Pokemon Name for Information:").grid(column = 0, row = 0)
 
 #quit the app button
 ttk.Button(frame, text = 'Quit', command=root.destroy).grid(column=0, row = 15)
