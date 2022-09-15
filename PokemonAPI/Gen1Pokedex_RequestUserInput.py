@@ -155,10 +155,14 @@ PokemonDict = [
     {"name": "mew","PokeDexEntryNo": 151,"FirstType": "psychic", "SecondType": None}
 ]
 
+#background image path
+#bg_image_path = ''
+
 #Create The GUI Frame
 frame = tk.Tk()
 frame.title("PokeDex_V1.a")
 frame.geometry('400x400')
+#frame.configure(bg)
 
 def checking(self):
     UserInput = self.user_input.get('1.0',tk.END) 
